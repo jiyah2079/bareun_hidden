@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BAREUN</title>
+    
+    <!-- 파비콘연결 -->
+    <link href="images/favicon.png" rel="icon" type="imgae/png" sizes="32*32">
+    <!-- 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- contents3 css -->
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <!-- 갤러리_con5 css -->
+    <link href="css/slick.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css"><!-- 수정X -->  
+    <link href="css/gallery1.css" rel="stylesheet" type="text/css"><!-- 디자인에 맞게 수정 -->
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul class="nav">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#"><img src="images/logo_top.png" alt="로고"></a></li>
+            <li><a href="#">EVENT</a></li>
+            <li><a href="#">REVIEW</a></li>
+        </ul>
+
+        <div class="rightmenu">
+            <a href="#"><img src="images/logo_top.png" alt="로고"></a>
+            <a href="#" class="total"><span>메뉴</span></a>
+            <ul class="nav_right">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">EVENT</a></li>
+            <li><a href="#">REVIEW</a></li>
+            </ul>
+        </div>
+
+        <ul class="main">
+        <li data-aos="fade-right" class="main_a">
+            <p class="main_a">New Arrivals</p>            
+            <p class="main_b">Cherry Blossom<br class="web">Healing<br class="web">Special Set</p>
+            <p class="main_c">자연의 영양을 담아<br class="web">피부를 촉촉하고 매끄럽게</p>
+            <p class="main_d">Cherry Blossom Healing Skin(140ml),<br>
+                Healing Lotion(100ml), Healing Tone-up Cream(40ml)<br>
+                Healing Jelly Cream(75ml)</p>
+        </li>
+        <li data-aos="fade-left"><img src="images/mainbanner_product.png" alt="상품이미지"></li>
+        </ul>
+    </header>
+
+    <section>
+
+    <div id="contents1">
+        <h1 data-aos="fade-up">About bareun</h1>
+        <p>바른(BAREUN)은 100% 비건 화장품으로 <br class="mobile">높은 품질의 식물성 원료를 사용하여 제품을 개발, 생산하는 브랜드입니다.<br>더 나아가 고객의 라이프스타일과 환경이 공존할 수 있도록 다양한 활동을 하며<br class="mobile"> 노력하고 있습니다.</p>
+        <div class="video">
+        <video src="images/bareun.mp4" autoplay loop muted 
+        type="video/mp4"></video>
+        </div>
+    </div>  <!-- contents1 -->
+
+    <div id="contents2">
+        <ul>
+            <li>멤버쉽 회원 신청
+            <br class="media3"><a href="#" class="link1 link">자세히 보기</a>
+            </li>
+            <li>이 달의 프로모션
+            <br class="media3"><a href="#" class="link2 link">자세히 보기</a>
+            </li>
+            <li>쇼핑 뉴스
+            <br class="media3"><a href="#" class="link1 link">자세히 보기</a>
+            </li>
+        </ul>
+    </div>  <!-- contents2 -->
+
+    <div id="contents3">
+        <h1 data-aos="fade-up">New Arrivals</h1>
+        <!-- 시작 -->
+        <div id="slideshow" class="slideshow">
+            <div class="slide">
+                <h2 class="slide__title slide__title--preview">Cherry Blossom Healing Lotion <span class="slide__price">￦35,</span></h2>
+                <div class="slide__item">
+                    <div class="slide__inner">
+                        <img class="slide__img slide__img--small" src="images/img1.png" alt="Some image" />
+                        <!-- <button class="action action--open" aria-label="View details"><i class="fa fa-plus"></i></button> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="slide">
+                <h2 class="slide__title slide__title--preview">Cherry Blossom Healing Tone-up Cream <span class="slide__price">￦49,</span></h2>
+                <div class="slide__item">
+                    <div class="slide__inner">
+                        <img class="slide__img slide__img--small" src="images/img2.png" alt="Some image" />
+                    </div>
+                </div>
+            </div> -->
+            <div class="slide">
+                <h2 class="slide__title slide__title--preview">Cherry Blossom Healing Jelly Cream <span class="slide__price">￦59,</span></h2>
+                <div class="slide__item">
+                    <div class="slide__inner">
+                        <img class="slide__img slide__img--small" src="images/img3.png" alt="Some image" />
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <h2 class="slide__title slide__title--preview">Cherry Blossom Healing Skin <span class="slide__price">￦29,</span></h2>
+                <div class="slide__item">
+                    <div class="slide__inner">
+                        <img class="slide__img slide__img--small" src="images/img4.png" alt="Some image" />
+                        <!-- <button class="action action--open" aria-label="View details"><i class="fa fa-plus"></i></button> -->
+                    </div>
+                </div>
+            </div>
+            <button class="action action--close" aria-label="Close"><i class="fa fa-close"></i></button>
+        </div>
+    </div>  <!-- contents3 -->
+    
+    <div id="contents4">
+        <h1 data-aos="fade-up">Best Kategorie</h1>
+        <ul class="con4_a con4">
+            <li><a href="#"><p>Face</p></a></li>
+            <li><a href="#"><p>Body</p></a></li>
+        </ul>
+        <ul class="con4_b con4">
+            <li><a href="#"><p>Makeup</p></a></li>
+            <li><a href="#"><p>Life</p></a></li>
+        </ul>
+    </div>  <!-- contents4 -->
+
+    <div id="contents5">
+        <h1 data-aos="fade-up">Special SET</h1>
+    <div class="regular slider">
+    <div>        
+        <div class="set_img"><a href="#"><img src="images/con5_1.png"></a></div>
+        <p class="text">Cherry Blossom Color Cosmetics<br>159,000원</p>
+    </div>
+    <div>
+        <div class="set_img"><a href="#"><img src="images/con5_2.png"></a></div>
+        <p class="text">Homme Multi Solution<br>109,000원</p>
+    </div>
+    <div>
+        <div class="set_img"><a href="#"><img src="images/con5_3.png"></a></div>
+        <p class="text">Strobe Body Lotion<br>39,000원</p>
+    </div>
+    <div>
+        <div class="set_img"><a href="#"><img src="images/con5_4.png"></a></div>
+        <p class="text">Miracle Moisture 3-step<br>99,000원</p>
+    </div>
+    <div>
+        <div class="set_img"><a href="#"><img src="images/con5_5.png"></a></div>
+        <p class="text">Cherry Blossom Healing Special Set<br>172,000원</p>
+    </div>
+    </div>
+    </div>  <!-- contents5 -->
+
+    <div id="contents6">
+        <h3>BAREUN(바른)은 클린뷰티와 비건 성분을 지향하며<br>
+            동물실험을 반대합니다.<br>
+            건강하고 윤리적인 아름다움을 실천합니다.</h3>
+        <a href="#" class="con6_link">바른 활동 보러가기</a>
+    </div>  <!-- contents6 -->
+
+    <div id="contents7">
+        <h1 data-aos="fade-up">Influencer Review</h1>
+        <ul class="sns">
+            <li><a href="#"><p><img src="images/sns_icon.png" alt="아이콘"></p>
+            </a></li>
+            <li><a href="#"><p><img src="images/sns_icon.png" alt="아이콘"></p>
+            </a></li>
+            <li><a href="#"><p><img src="images/sns_icon.png" alt="아이콘"></p>
+            </a></li>
+            <li><a href="#"><p><img src="images/sns_icon.png" alt="아이콘"></p>
+            </a></li>
+        </ul>
+    </div>  <!-- contents7 -->
+    </section>
+
+    <footer>
+        <p class="logo_footer"><a href="#"><img src="images/logo_footer.png" alt="로고"></a></p>
+        <p>고객센터 : 051.1234.5678<br>평일 : 10:00 - 15:00 (토/일, 공휴일 휴무) I 점심 시간 : 오전 11:40 - 13:00</p>
+        <p>회사명 : (주)바른 I 01234 부산광역시 문화대로 77 I 대표 : 김지영<br>사업자 등록번호 123-45-67890 I 통신판매업 신고번호 : 제 2020-부산-00001호 <br>© Bareun Corp. All rights reserved.</p>
+        <ul class="footer_sns">
+            <li><a href="#"><img src="images/icon1.png" alt="sns아이콘"></a></li>
+            <li><a href="#"><img src="images/icon2.png" alt="sns아이콘"></a></li>
+            <li><a href="#"><img src="images/icon3.png" alt="sns아이콘"></a></li>
+            <li><a href="#"><img src="images/icon4.png" alt="sns아이콘"></a></li>
+        </ul>
+
+    </footer>
+
+
+
+    <!-- 갤러리 js -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script><!-- 제이쿼리 라이브러리,수정X -->
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script><!-- 수정X -->
+    <script src="js/gallery1.js" type="text/javascript" charset="utf-8" class="js1"></script><!-- 디자인에 맞게 수정 -->
+
+    <!-- 갤러리 제이쿼리 -->
+    <script src="js/classie.js"></script>
+    <script src="js/dynamics.min.js"></script>
+    <script src="js/main.js"></script>    
+    <script>
+    (function() {
+        document.documentElement.className = 'js';
+        var slideshow = new CircleSlideshow(document.getElementById('slideshow'));
+    })();
+    </script>
+
+    <!--js_aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script_aos.js"></script>
+</body>
+</html>
